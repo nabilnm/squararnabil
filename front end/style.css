@@ -1,0 +1,29 @@
+#ladingpage{
+text-align: center;
+vertical-align: middle;
+
+}
+
+
+.headline{
+    text-transform: uppercase;
+    color: rgb(168, 167, 167);
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+.Info{
+    text-transform: uppercase;
+    color: rgb(168, 167, 167);
+    font-size: 50px;
+    margin-top: 55%;
+}
+
+
+.button{
+    text-transform:uppercase;
+    color: black;
+    background-color: rgb(161, 151, 151);
+    font-size: 50px;
+    margin-top: 60%;
+}
