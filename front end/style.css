@@ -1,29 +1,78 @@
+body{
+    overflow: hidden;
+    background-color: black;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+}
+
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
 #ladingpage{
 text-align: center;
 vertical-align: middle;
 
 }
 
-
 .headline{
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
-    color: rgb(168, 167, 167);
+    color: #f9f3f4;
+    text-align: center;
     font-size: 50px;
-    margin-top: 55px;
+    
 }
 
 .Info{
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
-    color: rgb(168, 167, 167);
+    color: #f9f3f4;
     font-size: 50px;
-    margin-top: 55%;
+    margin-top: 40%;
+    
 }
-
 
 .button{
-    text-transform:uppercase;
-    color: black;
-    background-color: rgb(161, 151, 151);
+    border: solid 2px;
+    border-radius: 12px;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.9;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40%;
     font-size: 50px;
-    margin-top: 60%;
+    padding: 20px;
+    color: #f9f3f4;
+    background-color: rgba(12, 11, 11, 0.705);
 }
+
+
+@media (min-width: 1281px) {
+
+    .body{
+        overflow: hidden;
+        overflow-x: hidden;
+        
+        overflow-y: hidden;
+
+    }
+
+    .Info{
+        margin-top: 9%;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .button{
+        margin-top: 1%;
+        font-size: 25px;
+        font-family: 'Nunito', sans-serif;
+    }
+  
+  }
+  
+
+    
